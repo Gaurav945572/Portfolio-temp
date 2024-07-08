@@ -1,0 +1,342 @@
+<!-- https://www.figma.com/community/file/1124669212090570174 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav Singh</title>
+  <link rel="shortcut icon" href="./images/userAsset/NavLogo2.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar container">
+    <!-- Logo -->
+    <div class="logo-group">
+      <img class="nav-logo" src="./logo.png" alt="" />
+      <h2 class="nav-logo-text">aurav Singh</h2>
+    </div>
+
+    <!-- Nav Items -->
+    <div class="nav-items">
+      <div><a href="#projects">Projects</a></div>
+      <div><a href="#skills">Skills</a></div>
+      <div><a href="#contactme">Contact Me</a></div>
+      <div><a href="https://drive.google.com/file/d/1nUiOrXS6FSKV3_NpGkhlVj-psjLe7K1s/view?usp=drive_link">Resume</a></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section container">
+    <div class="absolute faded-text">Gaurav Singh</div>
+    <!-- Left Section -->
+    <div class="hero-section-left">
+      <!-- Heading -->
+      <div class="hero-section-heading">Hi! Gaurav Singh</div>
+      <div class="hero-section-heading herosection-sub-heading">
+        I am a <span class="role"></span>
+      </div>
+
+      <!-- Description -->
+      <div class="hero-section-description">
+        I’m a pre-final year Engineering student and here is my portfolio website. 
+      </div>
+
+      <!-- CTA Button -->
+      <div class="btn-pink" id="btn-top">Hire me</div>
+    </div>
+
+    <!-- Right Section -->
+    <div class="hero-section-right">
+      <div class="absolute icons icon-dots">
+        <img src="./Icons/dotted.png" alt="" width="35" height="25" />
+      </div>
+      <div class="absolute icons icon-cube">
+        <img src="./Icons/cube.png" alt="" width="35" height="25" />
+      </div>
+      <div class="absolute icons icon-circle">
+        <img src="./Icons/blank.png" alt="" width="35" height="25" />
+      </div>
+      <div class="absolute icons icon-zigzak">
+        <img src="./Icons/cross-swords.png" alt="" width="35" height="25" />
+      </div>
+      <div class="absolute icons icon-plus">
+        <img src="./Icons/setup.png" alt="" width="35" height="25" />
+      </div>
+      <div class="user-image">
+        <img src="./my_image.png" alt="" width="345" height="390" />
+      </div>
+    </div>
+
+    <div class="btn-pink" id="btn-bottom">Hire me</div>
+  </div>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2 class="page-header">Projects</h2>
+    <div class="project-container">
+
+      <div class="project-card" id="project1">
+        <div class="project-number project-number-left">01</div>
+        <div class="project-content project-content-left">
+          <div class="project-skill-container">
+            <img class="project-skill" src="./Icons/HTML.png" alt="" />
+            <img class="project-skill" src="./Icons/CSS.png" alt="" />
+            <img class="project-skill" src="./Icons/bootstrap.svg" alt="" />
+            <img class="project-skill" src="./Icons/Javascript.svg" alt="" />
+            <img class="project-skill" src="./Icons/NodeJs.svg" alt="" />
+          </div>
+          <h2 class="project-heading">NEWSHUB</h2>
+          <p class="project-sub-heading">
+            Developed a full-stack web news application using JavaScript.Utilized the
+            News API to retrieve and display real-time news articles to users.
+          </p>
+          <div class="btn-group">
+            <button class="btn-pink btn-project">Read More</button>
+            <a href="https://github.com/Gaurav945572/NewsApp">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="">
+              <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" id="project2">
+        <div class="project-number project-number-right">02</div>
+        <div class="project-content project-content-right">
+          <div class="project-skill-container">
+            <img class="project-skill" src="./Icons/HTML.png" alt="" />
+            <img class="project-skill" src="./Icons/CSS.png" alt="" />
+            <img class="project-skill" src="./Icons/bootstrap.svg" alt="" />
+            <img class="project-skill" src="./Icons/Javascript.svg" alt="" />
+          </div>
+          <h2 class="project-heading">TIMER</h2>
+          <p class="project-sub-heading">
+            A web application incorporating a Countdown functionality to provide users with essential time management
+            tools.
+          </p>
+          <div class="btn-group">
+            <button class="btn-pink btn-project">Read More</button>
+            <a href="https://github.com/Gaurav945572/CC-DEC-WEB_DEVELOPMENT/tree/main/Timer-And-Stopwatch/timer">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="">
+              <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" id="project3">
+        <div class="project-number project-number-left">03</div>
+        <div class="project-content project-content-left">
+          <div class="project-skill-container">
+            <img class="project-skill" src="./Icons/HTML.png" alt="" />
+            <img class="project-skill" src="./Icons/CSS.png" alt="" />
+            <img class="project-skill" src="./Icons/bootstrap.svg" alt="" />
+            <img class="project-skill" src="./Icons/Javascript.svg" alt="" />
+          </div>
+
+          <h2 class="project-heading">STOPWATCH</h2>
+          <p class="project-sub-heading">
+            Integrated real-time alerts that notify users upon reaching the countdown
+            timer’s completion or when the stopwatch is stopped, improving task
+            management efficiency.
+          </p>
+          <div class="btn-group">
+            <button class="btn-pink btn-project">Read More</button>
+            <a href="https://github.com/Gaurav945572/CC-DEC-WEB_DEVELOPMENT/tree/main/Timer-And-Stopwatch/stopwatch">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="">
+              <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card" id="project4">
+        <div class="project-number project-number-right">04</div>
+        <div class="project-content project-content-right">
+          <div class="project-skill-container">
+            <img class="project-skill" src="./images/stack/NextJsCircle.png" alt="" />
+            <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+            <img class="project-skill" src="./images/stack/Vercel.svg" alt="" />
+          </div>
+          <h2 class="project-heading">Unit Converter</h2>
+          <p class="project-sub-heading">
+            A webapp that convert one unit to another unit .
+          </p>
+          <div class="btn-group">
+            <button class="btn-pink btn-project">Read More</button>
+            <a href="https://github.com/Gaurav945572/CC-DEC-WEB_DEVELOPMENT/tree/main/Unit_converter">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="">
+              <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" id="project5">
+        <div class="project-number project-number-left">05</div>
+        <div class="project-content project-content-left">
+          <div class="project-skill-container">
+            <img class="project-skill" src="./Icons/HTML.png" alt="" />
+            <img class="project-skill" src="./Icons/CSS.png" alt="" />
+            <img class="project-skill" src="./Icons/bootstrap.svg" alt="" />
+            <img class="project-skill" src="./Icons/Javascript.svg" alt="" />
+          </div>
+          <h2 class="project-heading">OnlineCodeEditor</h2>
+          <p class="project-sub-heading">
+            A online code editor which inclulde code, complie and execute.
+          </p>
+          <div class="btn-group">
+            <button class="btn-pink btn-project">Read More</button>
+            <a href="https://github.com/Gaurav945572/CC-DEC-WEB_DEVELOPMENT/tree/main/OnlineCodeEditor">
+              <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+            </a>
+            <a href="">
+              <i title="Live Link" class="fa-solid fa-link icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <div id="skills" class="container skills-container">
+    <div class="absolute skill-fade-text">Skills</div>
+    <!-- Left Section -->
+    <div class="skill-container-left">
+      <h2 class="skill-heading">
+        <span class="caps">M</span>e and
+        <br />
+        MyTech Stack
+      </h2>
+      <div class="skill-subHeading">
+        <p>
+          Hi there! I'm Gaurav Singh, a dynamic and motivated Mechanical Engineering student at IIT Patna with a passion
+          for problem-solving, programming, and web development.
+
+
+        <p>
+          I thrive on challenges and love to leverage technology to create innovative solutions that make a positive
+          impact. My strong foundation in programming languages such as C++, Python, and JavaScript, combined with
+          hands-on experience in web development tools like HTML, CSS,Bootstrap and React.js, empowers me to bring ideas
+          to life.
+          I'm an optimistic and determined individual who is always willing to understand new technologies and implement
+          them .
+        </p>
+        <p>
+          Competitive programming has sharpened my analytical and algorithmic thinking, enabling me to excel in coding
+          challenges on platforms like LeetCode, CodeChef, and Codeforces. I'm driven by a love for continuous learning
+          and an eagerness to push the boundaries of my skills.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Section -->
+
+    <div class="skill-container-right">
+      <img src="./Icons/abstract-shape-blot_444196-33511.jpg" class="blob-style" alt=""
+        style="height: 450px ; width: 450px;" />
+
+      <img src="/Icons/HTML.png" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/CSS.png" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/Javascript.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/bootstrap.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/NodeJs.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/MongoDB.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/Tailwind.png" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/React.png" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/Git.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+      <img src="./Icons/Github.svg" alt="" class="skills-logo" style="height: 90px ; width: 90px;" />
+    </div>
+  </div>
+
+  <!-- Contact Us -->
+  <div id="contactme" class="contactus-container">
+    <div class="container">
+      <h1 class="contactus-heading">Contact Me</h1>
+      <h3 class="contactus-sub-heading">
+        Questions, thoughts, or just want to say hello?
+      </h3>
+
+      <div class="contactus-form-container">
+        <form class="form" action="https://formspree.io/f/mlekrnnl" method="post">
+          <div class="formfield-container">
+            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name" />
+          </div>
+          <div class="formfield-container">
+            <input class="formfield" type="email" name="email" id="" placeholder="Enter your email address" />
+          </div>
+          <div class="formfield-container">
+            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject" />
+          </div>
+          <div class="formfield-container">
+            <textarea name="message" id="" cols="30" rows="10" class="formfield formfield-textarea"
+              placeholder="Enter your message"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn-pink" id="submit-btn">
+              Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container footer-wrapper">
+      <div class="footer-faded-text">Gaurav Singh</div>
+      <div class="link-wrapper">
+        <div>
+          <a href="#projects">Projects</a>
+        </div>
+        <div>
+          <a href="#skills">Skills</a>
+        </div>
+        <div>
+          <a href="#contactme">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="icon-wrapper">
+        <i class="fa-brands fa-linkedin icon"></i>
+        <i class="fa-brands fa-github icon"></i>
+        <i class="fa-brands fa-twitter icon"></i>
+        <i class="fa-brands fa-instagram icon"></i>
+        <i class="fa-regular fa-envelope icon"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+
+</html>
